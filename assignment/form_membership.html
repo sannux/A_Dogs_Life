@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<!-- author of the page -->
+		<meta name="author" content="Sannux" />
+		<!-- define page encoding  -->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<!-- load styles-->
+		<link href="style.css" type="text/css" rel="stylesheet" />
+	</head>
+	<!-- page content -->
+	<body>
+		<!-- heading of form -->
+		<p class="title">Membership form</p>
+		<!-- form content -->
+		<form name="membership" action="mailto:merilyn@inbox.lv" method="post">
+			<table>
+				<tr>
+					<td>Name:</td>
+					<td><input type="text" name="name" size="20" /></td>
+				</tr>
+				<tr>
+					<td>Surname:</td>
+					<td><input type="text" name="surname" size="20" /></td>
+				</tr>
+				<tr>
+					<td>Gender:</td>
+					<td>Male<input type="radio" name="gender"/> Female<input type="radio" name="gender" /></td>
+				</tr>
+				<tr>
+					<td valign="top">Address:</td>
+					<td><textarea name="address" rows="6" cols="30" ></textarea></td>
+				</tr>
+				<tr>
+					<td>Phone:</td>
+					<td><input type="text" name="phone" size="20" /></td>
+				</tr>
+				<tr>
+					<td>Number of dogs:</td>
+					<td>
+						<select name="number">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="submit" name="submit button" value="Submit" /></td>
+					<td><input type="reset" name="clear button" value="Clear" /></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
